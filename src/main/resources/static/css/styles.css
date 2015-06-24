@@ -7,16 +7,14 @@
  * Global CSS.
  */
 
-.container
-{
+.container {
     /* center contents */
     margin-left: auto;
     margin-right: auto;
     text-align: center;
 }
 
-#middle .form-control
-{
+#middle .form-control {
     /* center form controls */
     display: inline-block;
 
@@ -24,8 +22,7 @@
     width: auto;
 }
 
-#bottom
-{
+#bottom {
     /* shrink bottom's font size */
     font-size: smaller;
 
@@ -49,7 +46,14 @@ table, th, td {
 h1 {
     color: black;
     text-align: center;
-    font-size: 100px;
+    font-size: 120px;
+    font-family: baseball;
+}
+
+h2 {
+    color: black;
+    text-align: center;
+    font-size: 90px;
     font-family: baseball;
 }
 
@@ -61,4 +65,18 @@ button {
 
 body {
     background-image: url("../img/baseball.jpg")
+}
+
+.index {
+    position: absolute;
+    top: 30%;
+    transform: translateY(-70%);
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.container1 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }

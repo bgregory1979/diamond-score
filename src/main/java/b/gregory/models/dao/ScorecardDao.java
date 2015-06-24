@@ -12,6 +12,6 @@ import javax.transaction.Transactional;
 @Transactional
 @Repository
 public interface ScorecardDao extends CrudRepository<Scorecard, Integer> {
-    Scorecard findByHomeTeam(String hometeam);
-    Scorecard findByAwayTeam(String awayteam);
+    Scorecard findByHomeTeam(String homeTeam);
+    Scorecard findByAwayTeam(String awayTeam);
 }
